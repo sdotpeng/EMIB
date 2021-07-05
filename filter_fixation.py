@@ -3,7 +3,7 @@ import pandas as pd
 import conversion as conv
 import statistics
 
-import emtk as tk
+import emip_toolkit as tk
 
 
 def process_GazeBase(filename):

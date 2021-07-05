@@ -583,7 +583,7 @@ class Trial:
             penwidth = 2
             draw.line(bound, fill=line_color, width=penwidth)
 
-            font = ImageFont.truetype('Tohoma.ttf', 16)
+            font = ImageFont.truetype('resources/Tahoma.ttf', 16)
 
             if draw_number:
                 text_bound = ((x0 + x1) / 2, (y0 + y1) / 2)
@@ -653,8 +653,9 @@ class Trial:
         if draw_saccade:
             self.__draw_saccade(draw, draw_number)
 
-        plt.figure(figsize=(17, 15))
+        plt.figure(figsize=(34, 30))
         plt.imshow(np.asarray(im), interpolation='nearest')
+        plt.axis('off')
 
         if save_image is not None:
             # Save the image with applied offset
@@ -1525,20 +1526,20 @@ def hit_test(trial, aois_tokens, radius=25):
               "aoi_width",
               "aoi_height",
               "token",
-              "length",
-              "srcML"]
+              "length"]
+              # srcML deleted
 
     result = pd.DataFrame(columns=header)
     print("all fixations:", len(trial.get_fixations()))
 
-    for fix in trial.get_fixations():
+    for fix in trial.get_fixations().values():
 
         for row in aois_tokens.itertuples(index=True, name='Pandas'):
             # kind	name	x	y	width	height	local_id	image	token
 
             if overlap(fix, row, radius):
-                df = pd.DataFrame([[fix.trial_ID,
-                                    fix.participant,
+                df = pd.DataFrame([[fix.trial_id,
+                                    fix.participant_id,
                                     row.image,
                                     row.image,
                                     fix.timestamp,
@@ -1550,8 +1551,8 @@ def hit_test(trial, aois_tokens, radius=25):
                                     row.width,
                                     row.height,
                                     row.token,
-                                    len(row.token),
-                                    row.srcML_tag], ], columns=header)
+                                    len(row.token)], ], columns=header)
+                                    # srcML deleted
 
                 result = result.append(df, ignore_index=True)
 
