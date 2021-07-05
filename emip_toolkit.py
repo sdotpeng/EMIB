@@ -617,7 +617,7 @@ class Trial:
             path to save the image, image is saved to this path if it parameter exists
         """
 
-        im = Image.open(image_path + self.image)
+        im = Image.open(image_path + self.image).convert('RGB')
 
         if self.eye_tracker == "EyeLink1000":
 
@@ -1345,6 +1345,9 @@ def add_tokens_to_AOIs(file_path, aois_raw):
 
     if image_name == "vehicle_scala.jpg":
         file_name = "Vehicle.scala"
+
+    if image_name == "TEX_R1S1_bg.png":
+        file_name = "TEX_R1S1_text.txt"
 
     code_file = open(file_path + file_name)
 
