@@ -190,7 +190,3 @@ def original_filter_fixations(self, minimum_duration=50, sample_duration=4, maxm
         # then the window represents a fixation
         # in this case the window expands to the right until
         # the wondow dispersion is above threshold
-
-
-data = process_GazeBase('S_1001_S1_TEX.csv')
-filter_fixations(data)

@@ -1347,8 +1347,10 @@ def add_tokens_to_AOIs(file_path, aois_raw):
     if image_name == "vehicle_scala.jpg":
         file_name = "Vehicle.scala"
 
-    if image_name == "TEX_R1S1_bg.png":
-        file_name = "TEX_R1S1_text.txt"
+    if image_name.startswith('TEX'):
+        file_name = image_name.replace('bg.png', 'text.txt')
+
+    print(file_name)
 
     code_file = open(file_path + file_name)
 
