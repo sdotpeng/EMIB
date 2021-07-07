@@ -1350,8 +1350,6 @@ def add_tokens_to_AOIs(file_path, aois_raw):
     if image_name.startswith('TEX'):
         file_name = image_name.replace('bg.png', 'text.txt')
 
-    print(file_name)
-
     code_file = open(file_path + file_name)
 
     code_text = code_file.read()
@@ -1376,7 +1374,6 @@ def add_tokens_to_AOIs(file_path, aois_raw):
         line_num = int(line_part[1])
         part_num = int(line_part[3])
 
-        # print(line_part, filtered_line[line_num - 1])
         tokens.append(filtered_line[line_num - 1][part_num - 1])
 
     aois_raw["token"] = tokens
@@ -1561,6 +1558,75 @@ def hit_test(trial, aois_tokens, radius=25):
     return result
 
 
+def hit_test_GazeBase(trial, aois_tokens, radius=25):
+    """Checks if fixations are within AOI with a fixation radius of 25 px
+        (since each fix is a sum of samples within 25px)
+
+    Parameters
+    ----------
+    trial : Trial
+        contains fixations and other metadata (trial#, participant, code_file, code_language)
+            - fixation includes timestamp, duration, x_cord, y_cord
+
+    aois_tokens : pandas.Dataframe
+        contains each AOI location and dimension and token text
+
+    radius : int, optional
+        radius of circle using in hit test
+
+    Returns
+    -------
+    pandas.DataFrame
+        DataFrame with a record representing each fixation, each record contains:
+        trial, participant, code_file, code_language, timestamp, duration, x_cord, y_cord, token, length
+    """
+
+    header = ["round",
+              "session",
+              "participant",
+              "stimuli_image",
+              "stimuli_text",
+              "timestamp",
+              "duration",
+              "x_cord",
+              "y_cord",
+              "aoi_x",
+              "aoi_y",
+              "aoi_width",
+              "aoi_height",
+              "token",
+              "length"]
+
+    result = pd.DataFrame(columns=header)
+    # print("all fixations:", len(trial.get_fixations()))
+
+    for fix in trial.get_fixations().values():
+
+        for row in aois_tokens.itertuples(index=True, name='Pandas'):
+            # kind	name	x	y	width	height	local_id	image	token
+
+            if overlap(fix, row, radius):
+                df = pd.DataFrame([[fix.trial_id[0],
+                                    fix.trial_id[1],
+                                    fix.participant_id,
+                                    row.image,
+                                    row.image.replace('bg.png', 'text.txt'),
+                                    fix.timestamp,
+                                    fix.duration,
+                                    fix.x_cord,
+                                    fix.y_cord,
+                                    row.x,
+                                    row.y,
+                                    row.width,
+                                    row.height,
+                                    row.token,
+                                    len(row.token)], ], columns=header)
+
+                result = result.append(df, ignore_index=True)
+
+    return result
+
+
 def EMIP_dataset(path, sample_size=216):
     """Import the EMIP dataset
 
@@ -1631,6 +1697,47 @@ def AlMadi_dataset(path, sample_size=216):
 
                 if subject.get(participant_id, -1) == -1:
                     subject[participant_id] = read_EyeLink1000(os.path.join(r, file), filetype="asc")
+                else:
+                    print("Error, experiment already in dictionary")
+
+            count += 1
+
+            # breaks after sample_size
+            if count == sample_size:
+                break
+
+    return subject
+
+
+def GazeBase_dataset(path, sample_size=200):
+    """Import the GazeBase's dataset
+
+    Parameters
+    ----------
+    path : str
+        path to GazeBase dataset raw data directory, e.g. 'datasets/GazeBase_TEX/'
+
+    sample_size : int, optional
+        the number of subjects to be processed, the default is 216
+
+    Returns
+    -------
+    dict
+        a dictionary of experiments where the key is the subject ID
+    """
+    subject = {}
+    count = 0
+
+    # go over .tsv files in the rawdata directory add files and count them
+    # r = root, d = directories, f = files
+    for r, d, f in os.walk(path):
+        for file in f:
+            if '.csv' in file:
+
+                participant_id = file[2:6] + file[8]
+
+                if subject.get(participant_id, -1) == -1:
+                    subject[participant_id] = read_GazeBase(os.path.join(r, file), filetype="csv")
                 else:
                     print("Error, experiment already in dictionary")
 
