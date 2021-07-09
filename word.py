@@ -1,4 +1,27 @@
 import numpy as np
+import pandas as pd
+
+df = pd.read_csv('freq_result.csv', index_col='index')
+datatype = {'round': str, 
+            'session': str, 
+            'participant': str,
+            'stimuli_image': str,
+            'stimuli_text': str,
+            'duration': 'int64',
+            'x_cord': 'float64',
+            'y_cord': 'float64',
+            'aoi_x': 'float64',
+            'aoi_y': 'float64', 
+            'aoi_width': 'float64', 
+            'aoi_height': 'float64',
+            'token': str,
+            'length': 'int64'}
+
+df = df.astype(datatype)
+
+participants = {}
+participants["nt1"] = ["1", "2", "3", "4"]
+#participants['gazebase'] = df.participant.unique().tolist()
 
 class Word:
     #class for word data
