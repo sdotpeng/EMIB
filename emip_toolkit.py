@@ -1384,17 +1384,6 @@ def add_tokens_to_AOIs(file_path, aois_raw):
     return aois_raw
 
 
-def find_sentence(aois):
-    """Add sentence number to the passed aoi
-    
-    Parameters
-    ----------
-    aois : pandas.DataFrame
-        the dataframe where AOIs are stored
-    """
-    
-
-
 def add_srcml_to_AOIs(aois_raw):
     """Adds srcML tags to AOIs dataframe and returns it.
         Check https://www.srcml.org/ for more information about srcML
