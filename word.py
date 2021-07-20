@@ -3,7 +3,7 @@ import pandas as pd
 
 import json
 
-with open('participants.txt', 'r') as file:
+with open('datasets/participants.txt', 'r') as file:
     participants = json.loads(file.read())
 
 class Word:
