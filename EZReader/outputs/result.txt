@@ -1,0 +1,604 @@
+
+ Word-based means:
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 the
+ SFD 151  FFD 151  GD 151  TT 151  PrF 0.03 Pr1 0.03 Pr2 0.00 PrS 0.97 place
+ SFD 148  FFD 148  GD 148  TT 148  PrF 0.09 Pr1 0.09 Pr2 0.00 PrS 0.91 for
+ SFD 153  FFD 153  GD 153  TT 153  PrF 0.12 Pr1 0.12 Pr2 0.00 PrS 0.88 a
+ SFD 147  FFD 147  GD 147  TT 147  PrF 0.45 Pr1 0.45 Pr2 0.00 PrS 0.55 snark
+ SFD 152  FFD 152  GD 152  TT 152  PrF 0.29 Pr1 0.29 Pr2 0.00 PrS 0.71 the
+ SFD 152  FFD 152  GD 161  TT 161  PrF 0.68 Pr1 0.63 Pr2 0.05 PrS 0.32 bellman
+ SFD 106  FFD 106  GD 106  TT 120  PrF 0.08 Pr1 0.09 Pr2 0.00 PrS 0.91 he
+ SFD 161  FFD 152  GD 166  TT 176  PrF 0.87 Pr1 0.79 Pr2 0.13 PrS 0.08 landed
+ SFD 124  FFD 124  GD 124  TT 138  PrF 0.37 Pr1 0.40 Pr2 0.00 PrS 0.60 his
+ SFD 159  FFD 156  GD 159  TT 163  PrF 0.38 Pr1 0.38 Pr2 0.01 PrS 0.61 crew
+ SFD 145  FFD 145  GD 145  TT 145  PrF 0.03 Pr1 0.03 Pr2 0.00 PrS 0.97 with
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 each
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 man
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 on
+ SFD 145  FFD 145  GD 145  TT 145  PrF 0.02 Pr1 0.02 Pr2 0.00 PrS 0.98 the
+ SFD 113  FFD 113  GD 113  TT 113  PrF 0.01 Pr1 0.01 Pr2 0.00 PrS 0.99 top
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 of
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 the
+ SFD 178  FFD 178  GD 178  TT 178  PrF 0.02 Pr1 0.02 Pr2 0.00 PrS 0.98 a
+ SFD 145  FFD 143  GD Infinity  TT Infinity  PrF 0.81 Pr1 0.68 Pr2 0.06 PrS 0.26 finger
+ SFD Infinity  FFD Infinity  GD Infinity  TT Infinity  PrF 1.00 Pr1 0.48 Pr2 0.51 PrS 0.01 entwined
+ SFD Infinity  FFD Infinity  GD Infinity  TT Infinity  PrF 0.42 Pr1 0.04 Pr2 0.02 PrS 0.94 in
+ SFD Infinity  FFD Infinity  GD Infinity  TT Infinity  PrF 0.75 Pr1 0.62 Pr2 0.09 PrS 0.29 his
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 the
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 place
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 for
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 a
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 snark
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 i
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 have
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 said
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 it
+ SFD 146  FFD 144  GD 147  TT 147  PrF 0.66 Pr1 0.64 Pr2 0.02 PrS 0.34 alone
+ SFD 177  FFD 173  GD 204  TT 204  PrF 0.56 Pr1 0.50 Pr2 0.06 PrS 0.44 should
+ SFD 189  FFD 180  GD 218  TT 222  PrF 0.52 Pr1 0.37 Pr2 0.16 PrS 0.47 encourage
+ SFD 186  FFD 186  GD 186  TT 186  PrF 0.01 Pr1 0.01 Pr2 0.00 PrS 0.99 the
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 the
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 place
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 for
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 a
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 snark
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 i
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 have
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 said
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 it
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 i
+ SFD 139  FFD 139  GD 139  TT 139  PrF 0.02 Pr1 0.02 Pr2 0.00 PrS 0.98 tell
+ SFD 130  FFD 130  GD 130  TT 130  PrF 0.01 Pr1 0.01 Pr2 0.00 PrS 0.99 you
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 three
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 times
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 is
+ SFD  -7  FFD  -7  GD  -7  TT  -7  PrF 0.29 Pr1 0.30 Pr2 0.00 PrS 0.70 crew
+ SFD -2722  FFD -2722  GD -2722  TT -3175  PrF 0.12 Pr1 0.14 Pr2 0.00 PrS 0.86 was
+ SFD 152  FFD 152  GD 152  TT 152  PrF 0.18 Pr1 0.18 Pr2 0.00 PrS 0.82 complete
+ SFD 138  FFD 138  GD 138  TT 138  PrF 0.10 Pr1 0.10 Pr2 0.00 PrS 0.90 it
+ SFD -613  FFD -613  GD -613  TT -1839  PrF 0.01 Pr1 0.03 Pr2 0.00 PrS 0.97 included
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 a
+ SFD 156  FFD 154  GD 159  TT 161  PrF 0.82 Pr1 0.80 Pr2 0.03 PrS 0.17 maker
+ SFD 113  FFD 113  GD 113  TT 119  PrF 0.19 Pr1 0.20 Pr2 0.00 PrS 0.80 of
+ SFD 205  FFD 179  GD 209  TT 226  PrF 0.71 Pr1 0.60 Pr2 0.17 PrS 0.23 bonnets
+ SFD 140  FFD 140  GD 140  TT 140  PrF 0.26 Pr1 0.26 Pr2 0.00 PrS 0.74 and
+ SFD 197  FFD 186  GD 217  TT 219  PrF 0.83 Pr1 0.66 Pr2 0.18 PrS 0.16 barrister
+ SFD 177  FFD 153  GD 161  TT 166  PrF 0.68 Pr1 0.66 Pr2 0.04 PrS 0.30 brought
+ SFD 148  FFD 148  GD 148  TT 157  PrF 0.16 Pr1 0.17 Pr2 0.00 PrS 0.83 to
+ SFD 182  FFD 170  GD 189  TT 189  PrF 0.50 Pr1 0.43 Pr2 0.07 PrS 0.50 arrange
+ SFD 155  FFD 155  GD 155  TT 155  PrF 0.41 Pr1 0.41 Pr2 0.00 PrS 0.59 their
+ SFD 122  FFD 122  GD 122  TT 128  PrF 0.22 Pr1 0.23 Pr2 0.00 PrS 0.77 a
+ SFD 133  FFD 133  GD 133  TT 142  PrF 0.28 Pr1 0.30 Pr2 0.00 PrS 0.70 broker
+ SFD 143  FFD 143  GD 143  TT 143  PrF 0.03 Pr1 0.03 Pr2 0.00 PrS 0.97 to
+ SFD 151  FFD 151  GD 151  TT 151  PrF 0.26 Pr1 0.26 Pr2 0.00 PrS 0.74 value
+ SFD 143  FFD 143  GD 143  TT 143  PrF 0.12 Pr1 0.12 Pr2 0.00 PrS 0.88 their
+ SFD Infinity  FFD Infinity  GD Infinity  TT Infinity  PrF 0.84 Pr1 0.10 Pr2 0.74 PrS 0.16 billiard-marker
+ SFD Infinity  FFD Infinity  GD Infinity  TT Infinity  PrF 0.83 Pr1 0.06 Pr2 0.01 PrS 0.93 whose
+ SFD 148  FFD 148  GD Infinity  TT Infinity  PrF 0.70 Pr1 0.53 Pr2 0.06 PrS 0.41 skill
+ SFD 153  FFD 153  GD 153  TT 177  PrF 0.29 Pr1 0.29 Pr2 0.00 PrS 0.71 was
+ SFD 151  FFD 151  GD 151  TT 151  PrF 0.13 Pr1 0.13 Pr2 0.00 PrS 0.87 perhaps
+ SFD 134  FFD 134  GD 142  TT 144  PrF 0.69 Pr1 0.67 Pr2 0.03 PrS 0.30 have
+ SFD 175  FFD 165  GD 181  TT 189  PrF 0.46 Pr1 0.43 Pr2 0.05 PrS 0.52 won
+ SFD 137  FFD 137  GD 137  TT 137  PrF 0.03 Pr1 0.03 Pr2 0.00 PrS 0.97 more
+ SFD 143  FFD 143  GD 143  TT 143  PrF 0.06 Pr1 0.06 Pr2 0.00 PrS 0.94 than
+ SFD 132  FFD 132  GD 132  TT 132  PrF 0.03 Pr1 0.03 Pr2 0.00 PrS 0.97 his
+ SFD 142  FFD 142  GD 142  TT 142  PrF 0.14 Pr1 0.14 Pr2 0.00 PrS 0.86 a
+ SFD 185  FFD 170  GD 260  TT 260  PrF 0.81 Pr1 0.57 Pr2 0.24 PrS 0.19 banker
+ SFD 236  FFD 216  GD 264  TT 264  PrF 0.75 Pr1 0.54 Pr2 0.21 PrS 0.25 engaged
+ SFD 138  FFD 138  GD 138  TT 138  PrF 0.09 Pr1 0.09 Pr2 0.00 PrS 0.91 at
+ SFD 149  FFD 148  GD 152  TT 152  PrF 0.66 Pr1 0.64 Pr2 0.02 PrS 0.34 enormous
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 the
+ SFD 120  FFD 120  GD 120  TT 120  PrF 0.05 Pr1 0.05 Pr2 0.00 PrS 0.95 whole
+ SFD 143  FFD 143  GD 143  TT 143  PrF 0.04 Pr1 0.04 Pr2 0.00 PrS 0.96 of
+ SFD 140  FFD 140  GD 140  TT 140  PrF 0.01 Pr1 0.01 Pr2 0.00 PrS 0.99 their
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 cash
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 in
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 his
+ SFD 155  FFD 155  GD 155  TT 155  PrF 0.04 Pr1 0.04 Pr2 0.00 PrS 0.96 was
+ SFD 154  FFD 154  GD 154  TT 154  PrF 0.21 Pr1 0.21 Pr2 0.00 PrS 0.79 also
+ SFD 154  FFD 154  GD 154  TT 154  PrF 0.13 Pr1 0.13 Pr2 0.00 PrS 0.87 a
+ SFD 153  FFD 148  GD 153  TT 153  PrF 0.63 Pr1 0.61 Pr2 0.02 PrS 0.37 beaver
+ SFD 147  FFD 147  GD 151  TT 154  PrF 0.42 Pr1 0.42 Pr2 0.01 PrS 0.57 that
+ SFD 181  FFD 180  GD 201  TT 206  PrF 0.43 Pr1 0.38 Pr2 0.06 PrS 0.56 paced
+ SFD 137  FFD 137  GD 137  TT 137  PrF 0.01 Pr1 0.01 Pr2 0.00 PrS 0.99 on
+ SFD   9  FFD   9  GD   9  TT   9  PrF 0.01 Pr1 0.01 Pr2 0.00 PrS 0.99 the
+ SFD 186  FFD 184  GD 192  TT 192  PrF 0.73 Pr1 0.69 Pr2 0.04 PrS 0.27 would
+ SFD 181  FFD 180  GD 185  TT 185  PrF 0.58 Pr1 0.56 Pr2 0.02 PrS 0.42 sit
+ SFD 143  FFD 141  GD 189  TT 189  PrF 0.65 Pr1 0.52 Pr2 0.13 PrS 0.35 making
+ SFD 210  FFD 189  GD 229  TT 214  PrF 0.23 Pr1 0.14 Pr2 0.05 PrS 0.81 lace
+ SFD 146  FFD 146  GD 146  TT 146  PrF 0.03 Pr1 0.03 Pr2 0.00 PrS 0.97 in
+ SFD 157  FFD 157  GD 157  TT 157  PrF 0.03 Pr1 0.03 Pr2 0.00 PrS 0.97 the
+ SFD 149  FFD 149  GD 149  TT 149  PrF 0.14 Pr1 0.14 Pr2 0.00 PrS 0.86 had
+ SFD 157  FFD 157  GD 161  TT 161  PrF 0.42 Pr1 0.41 Pr2 0.01 PrS 0.58 often
+ SFD 167  FFD 167  GD 167  TT 167  PrF 0.36 Pr1 0.36 Pr2 0.00 PrS 0.64 the
+ SFD 199  FFD 187  GD 274  TT 274  PrF 0.62 Pr1 0.37 Pr2 0.25 PrS 0.38 bellman
+ SFD 120  FFD 121  GD 126  TT 131  PrF 0.31 Pr1 0.31 Pr2 0.01 PrS 0.68 said
+ SFD 251  FFD 184  GD 224  TT 245  PrF 0.65 Pr1 0.45 Pr2 0.26 PrS 0.29 saved
+ SFD  97  FFD  97  GD  97  TT  97  PrF 0.03 Pr1 0.03 Pr2 0.00 PrS 0.97 them
+ SFD 146  FFD 146  GD 146  TT 146  PrF 0.28 Pr1 0.28 Pr2 0.00 PrS 0.72 from
+ SFD 120  FFD 120  GD 120  TT 120  PrF 0.29 Pr1 0.29 Pr2 0.00 PrS 0.71 none
+ SFD 183  FFD 183  GD 183  TT 183  PrF 0.03 Pr1 0.03 Pr2 0.00 PrS 0.97 of
+ SFD 152  FFD 152  GD 152  TT 152  PrF 0.22 Pr1 0.22 Pr2 0.00 PrS 0.78 the
+ SFD 163  FFD 163  GD 167  TT 167  PrF 0.44 Pr1 0.43 Pr2 0.01 PrS 0.56 sailors
+ SFD 123  FFD 123  GD 123  TT 123  PrF 0.02 Pr1 0.02 Pr2 0.00 PrS 0.98 knew
+ SFD 142  FFD 142  GD 142  TT 142  PrF 0.10 Pr1 0.10 Pr2 0.00 PrS 0.90 was
+ SFD  97  FFD  97  GD  97  TT 101  PrF 0.24 Pr1 0.25 Pr2 0.00 PrS 0.75 one
+ SFD 111  FFD 111  GD 111  TT 117  PrF 0.33 Pr1 0.35 Pr2 0.00 PrS 0.65 who
+ SFD 127  FFD 127  GD 127  TT 138  PrF 0.25 Pr1 0.27 Pr2 0.00 PrS 0.73 was
+ SFD 143  FFD 143  GD 143  TT 143  PrF 0.10 Pr1 0.10 Pr2 0.00 PrS 0.90 famed
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 for
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 the
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 number
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 of
+ SFD 100  FFD 104  GD 133  TT 154  PrF 0.67 Pr1 0.55 Pr2 0.14 PrS 0.31 forgot
+ SFD 142  FFD 142  GD 142  TT 142  PrF 0.06 Pr1 0.06 Pr2 0.00 PrS 0.94 when
+ SFD  38  FFD  38  GD  38  TT  44  PrF 0.14 Pr1 0.16 Pr2 0.00 PrS 0.84 he
+ SFD 104  FFD  89  GD 126  TT 138  PrF 0.11 Pr1 0.09 Pr2 0.03 PrS 0.88 entered
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 the
+ SFD -629  FFD -581  GD -571  TT -591  PrF 0.88 Pr1 0.85 Pr2 0.06 PrS 0.09 umbrella
+ SFD  81  FFD  81  GD  81  TT  86  PrF 0.36 Pr1 0.38 Pr2 0.00 PrS 0.62 his
+ SFD 178  FFD 159  GD 186  TT 194  PrF 0.52 Pr1 0.49 Pr2 0.04 PrS 0.47 watch
+ SFD -50  FFD -50  GD -50  TT -57  PrF 0.08 Pr1 0.09 Pr2 0.00 PrS 0.91 all
+ SFD  89  FFD  91  GD  94  TT 107  PrF 0.37 Pr1 0.41 Pr2 0.01 PrS 0.58 his
+ SFD 181  FFD 165  GD 195  TT 198  PrF 0.65 Pr1 0.54 Pr2 0.12 PrS 0.34 jewels
+ SFD 138  FFD 138  GD 144  TT 144  PrF 0.34 Pr1 0.33 Pr2 0.01 PrS 0.66 and
+ SFD 143  FFD 143  GD 143  TT 143  PrF 0.06 Pr1 0.06 Pr2 0.00 PrS 0.94 the
+ SFD 143  FFD 143  GD 143  TT 143  PrF 0.18 Pr1 0.18 Pr2 0.00 PrS 0.82 clothes
+ SFD 153  FFD 153  GD 153  TT 153  PrF 0.02 Pr1 0.02 Pr2 0.00 PrS 0.98 he
+ SFD 141  FFD 141  GD 141  TT 141  PrF 0.05 Pr1 0.05 Pr2 0.00 PrS 0.95 had
+ SFD 116  FFD 116  GD 116  TT 116  PrF 0.01 Pr1 0.01 Pr2 0.00 PrS 0.99 bought
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 for
+ SFD   0  FFD   0  GD   0  TT   0  PrF 0.00 Pr1 0.00 Pr2 0.00 PrS 1.00 the
+
+ First-fixation landing-site distributions:
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00 0.33 0.67  place
+ 0.22 0.44 0.00 0.33  for
+ 0.50 0.50  a
+ 0.09 0.27 0.07 0.22 0.18 0.18  snark
+ 0.10 0.31 0.21 0.38  the
+ 0.12 0.15 0.19 0.10 0.13 0.09 0.10 0.12  bellman
+ 0.00 0.33 0.67  he
+ 0.23 0.34 0.32 0.10 0.00 0.02 0.00  landed
+ 0.10 0.13 0.23 0.55  his
+ 0.36 0.44 0.10 0.10 0.00  crew
+ 0.33 0.67 0.33 0.33 0.33  with
+ 0.00 0.00 0.00 0.00 0.00  each
+ 0.00 0.00 0.00 0.00  man
+ 0.00 0.00 0.00  on
+ 0.00 0.00 0.50 0.50  the
+ 0.00 0.00 0.00 1.00  top
+ 0.00 0.00 0.00  of
+ 0.00 0.00 0.00 0.00  the
+ 0.50 0.50  a
+ 0.07 0.05 0.16 0.15 0.18 0.18 0.22  finger
+ 0.15 0.18 0.14 0.21 0.19 0.10 0.02 0.00 0.00  entwined
+ 0.00 0.67 0.33  in
+ 0.21 0.30 0.27 0.23  his
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00 0.00 0.00  place
+ 0.00 0.00 0.00 0.00  for
+ 0.00 0.00  a
+ 0.00 0.00 0.00 0.00 0.00 0.00  snark
+ 0.00 0.00  i
+ 0.00 0.00 0.00 0.00 0.00  have
+ 0.00 0.00 0.00 0.00 0.00  said
+ 0.00 0.00 0.00  it
+ 0.06 0.08 0.24 0.23 0.20 0.20  alone
+ 0.23 0.18 0.14 0.07 0.05 0.13 0.20  should
+ 0.26 0.17 0.23 0.19 0.11 0.02 0.02 0.00 0.00 0.00  encourage
+ 0.00 0.00 1.00 0.00  the
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00 0.00 0.00  place
+ 0.00 0.00 0.00 0.00  for
+ 0.00 0.00  a
+ 0.00 0.00 0.00 0.00 0.00 0.00  snark
+ 0.00 0.00  i
+ 0.00 0.00 0.00 0.00 0.00  have
+ 0.00 0.00 0.00 0.00 0.00  said
+ 0.00 0.00 0.00  it
+ 0.00 0.00  i
+ 0.50 0.50 0.00 0.00 0.00  tell
+ 0.00 1.00 0.00 0.00  you
+ 0.00 0.00 0.00 0.00 0.00 0.00  three
+ 0.00 0.00 0.00 0.00 0.00 0.00  times
+ 0.00 0.00 0.00  is
+ 0.33 0.30 0.20 0.13 0.03  crew
+ 0.14 0.21 0.29 0.36  was
+ 0.17 0.11 0.28 0.06 0.06 0.11 0.06 0.00 0.17  complete
+ 0.60 0.20 0.20  it
+ 0.33 0.33 0.33 0.00 0.00 0.00 0.00 0.00 0.00  included
+ 0.00 0.00  a
+ 0.02 0.20 0.40 0.30 0.07 0.00  maker
+ 0.15 0.30 0.55  of
+ 0.09 0.18 0.25 0.29 0.10 0.08 0.00 0.01  bonnets
+ 0.15 0.31 0.12 0.42  and
+ 0.02 0.05 0.23 0.33 0.23 0.10 0.02 0.01 0.00 0.01  barrister
+ 0.07 0.21 0.26 0.20 0.19 0.03 0.03 0.01  brought
+ 0.29 0.24 0.47  to
+ 0.10 0.18 0.18 0.30 0.12 0.08 0.04 0.00  arrange
+ 0.20 0.12 0.20 0.17 0.20 0.15  their
+ 0.61 0.39  a
+ 0.37 0.30 0.23 0.03 0.00 0.00 0.07  broker
+ 0.33 0.67 0.00  to
+ 0.19 0.08 0.19 0.15 0.27 0.12  value
+ 0.33 0.08 0.17 0.17 0.17 0.08  their
+ 0.06 0.07 0.14 0.26 0.21 0.11 0.10 0.05 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  billiard-marker
+ 0.00 0.00 0.00 0.29 0.43 0.29  whose
+ 0.12 0.08 0.19 0.24 0.15 0.22  skill
+ 0.24 0.28 0.24 0.24  was
+ 0.00 0.00 0.00 0.00 0.08 0.00 0.38 0.54  perhaps
+ 0.20 0.16 0.21 0.24 0.19  have
+ 0.38 0.21 0.23 0.19  won
+ 0.33 0.33 0.33 0.00 0.00  more
+ 0.17 0.17 0.17 0.17 0.33  than
+ 0.00 1.00 0.00 0.00  his
+ 0.29 0.71  a
+ 0.32 0.15 0.22 0.07 0.06 0.05 0.12  banker
+ 0.17 0.29 0.20 0.15 0.15 0.03 0.00 0.01  engaged
+ 0.44 0.00 0.56  at
+ 0.06 0.11 0.09 0.14 0.17 0.17 0.09 0.12 0.06  enormous
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.20 0.20 0.20 0.40  whole
+ 0.00 0.50 0.50  of
+ 0.00 0.00 0.00 0.00 1.00 0.00  their
+ 0.00 0.00 0.00 0.00 0.00  cash
+ 0.00 0.00 0.00  in
+ 0.00 0.00 0.00 0.00  his
+ 0.00 0.00 0.25 0.75  was
+ 0.10 0.00 0.33 0.24 0.33  also
+ 0.54 0.46  a
+ 0.16 0.14 0.14 0.17 0.14 0.16 0.08  beaver
+ 0.19 0.16 0.28 0.14 0.23  that
+ 0.36 0.25 0.25 0.14 0.00 0.00  paced
+ 0.00 0.00 1.00  on
+ 0.00 1.00 0.00 0.00  the
+ 0.00 0.01 0.18 0.22 0.22 0.37  would
+ 0.34 0.36 0.14 0.16  sit
+ 0.09 0.20 0.32 0.09 0.11 0.08 0.11  making
+ 0.26 0.32 0.26 0.11 0.05  lace
+ 0.00 0.67 0.33  in
+ 0.00 0.33 0.33 0.33  the
+ 0.36 0.00 0.14 0.50  had
+ 0.17 0.12 0.17 0.21 0.10 0.24  often
+ 0.14 0.33 0.39 0.14  the
+ 0.16 0.18 0.18 0.19 0.15 0.08 0.06 0.00  bellman
+ 0.13 0.22 0.19 0.19 0.28  said
+ 0.21 0.25 0.28 0.18 0.06 0.01  saved
+ 0.33 0.00 0.67 0.00 0.33  them
+ 0.04 0.29 0.29 0.18 0.21  from
+ 0.24 0.34 0.31 0.10 0.00  none
+ 0.00 0.33 0.67  of
+ 0.14 0.36 0.27 0.23  the
+ 0.11 0.14 0.11 0.20 0.23 0.14 0.07 0.00  sailors
+ 0.50 0.00 0.50 0.00 0.00  knew
+ 0.10 0.20 0.30 0.40  was
+ 0.24 0.20 0.36 0.20  one
+ 0.06 0.31 0.43 0.20  who
+ 0.26 0.30 0.26 0.19  was
+ 0.60 0.30 0.10 0.00 0.00 0.00  famed
+ 0.00 0.00 0.00 0.00  for
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00 0.00 0.00 0.00  number
+ 0.00 0.00 0.00  of
+ 0.07 0.22 0.42 0.26 0.03 0.01 0.00  forgot
+ 0.00 0.17 0.17 0.67 0.17  when
+ 0.31 0.31 0.38  he
+ 0.25 0.33 0.00 0.25 0.17 0.00 0.00 0.00  entered
+ 0.00 0.00 0.00 0.00  the
+ 0.04 0.15 0.19 0.40 0.15 0.05 0.01 0.00 0.00  umbrella
+ 0.11 0.26 0.13 0.50  his
+ 0.36 0.40 0.15 0.06 0.02 0.02  watch
+ 0.22 0.22 0.11 0.44  all
+ 0.33 0.14 0.19 0.33  his
+ 0.17 0.23 0.21 0.20 0.14 0.02 0.05  jewels
+ 0.12 0.24 0.38 0.29  and
+ 0.17 0.33 0.33 0.17  the
+ 0.11 0.11 0.17 0.11 0.17 0.06 0.11 0.17  clothes
+ 0.50 0.00 0.50  he
+ 0.80 0.00 0.20 0.00  had
+ 0.00 0.00 0.00 1.00 0.00 0.00 0.00  bought
+ 0.00 0.00 0.00 0.00  for
+ 0.00 0.00 0.00 0.00  the
+
+ Refixation probability distributions:
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00 0.00 0.00  place
+ 0.00 0.00 0.00 0.00  for
+ 0.00 0.00  a
+ 0.00 0.00 0.00 0.00 0.00 0.00  snark
+ 0.00 0.00 0.00 0.00  the
+ 0.38 0.10 0.08 0.00 0.00 0.00 0.00 0.00  bellman
+ 0.00 0.00 0.00  he
+ 0.19 0.19 0.10 0.00 0.00 0.00 0.00  landed
+ 0.00 0.00 0.00 0.00  his
+ 0.07 0.00 0.00 0.00 0.00  crew
+ 0.00 0.00 0.00 0.00 0.00  with
+ 0.00 0.00 0.00 0.00 0.00  each
+ 0.00 0.00 0.00 0.00  man
+ 0.00 0.00 0.00  on
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00  top
+ 0.00 0.00 0.00  of
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00  a
+ 0.40 0.00 0.25 0.00 0.08 0.00 0.00  finger
+ 1.00 0.83 0.50 0.38 0.26 0.00 0.50 0.00 0.00  entwined
+ 0.00 0.25 0.50  in
+ 0.00 0.05 0.21 0.25  his
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00 0.00 0.00  place
+ 0.00 0.00 0.00 0.00  for
+ 0.00 0.00  a
+ 0.00 0.00 0.00 0.00 0.00 0.00  snark
+ 0.00 0.00  i
+ 0.00 0.00 0.00 0.00 0.00  have
+ 0.00 0.00 0.00 0.00 0.00  said
+ 0.00 0.00 0.00  it
+ 0.00 0.00 0.06 0.07 0.00 0.00  alone
+ 0.15 0.20 0.25 0.00 0.00 0.00 0.00  should
+ 0.36 0.67 0.17 0.20 0.17 0.00 0.00 0.00 0.00 0.00  encourage
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00 0.00 0.00  place
+ 0.00 0.00 0.00 0.00  for
+ 0.00 0.00  a
+ 0.00 0.00 0.00 0.00 0.00 0.00  snark
+ 0.00 0.00  i
+ 0.00 0.00 0.00 0.00 0.00  have
+ 0.00 0.00 0.00 0.00 0.00  said
+ 0.00 0.00 0.00  it
+ 0.00 0.00  i
+ 0.00 0.00 0.00 0.00 0.00  tell
+ 0.00 0.00 0.00 0.00  you
+ 0.00 0.00 0.00 0.00 0.00 0.00  three
+ 0.00 0.00 0.00 0.00 0.00 0.00  times
+ 0.00 0.00 0.00  is
+ 0.00 0.00 0.00 0.00 0.00  crew
+ 0.00 0.00 0.00 0.00  was
+ 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  complete
+ 0.00 0.00 0.00  it
+ 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  included
+ 0.00 0.00  a
+ 0.00 0.12 0.03 0.00 0.00 0.00  maker
+ 0.00 0.00 0.00  of
+ 0.43 0.50 0.21 0.14 0.00 0.00 0.00 0.00  bonnets
+ 0.00 0.00 0.00 0.00  and
+ 1.00 0.25 0.16 0.21 0.32 0.00 0.00 0.00 0.00 0.00  barrister
+ 0.20 0.13 0.06 0.00 0.00 0.00 0.00 0.00  brought
+ 0.00 0.00 0.00  to
+ 0.20 0.11 0.11 0.20 0.00 0.25 0.00 0.00  arrange
+ 0.00 0.00 0.00 0.00 0.00 0.00  their
+ 0.00 0.00  a
+ 0.00 0.00 0.00 0.00 0.00 0.00 0.00  broker
+ 0.00 0.00 0.00  to
+ 0.00 0.00 0.00 0.00 0.00 0.00  value
+ 0.00 0.00 0.00 0.00 0.00 0.00  their
+ 1.00 1.00 1.00 1.00 1.00 0.78 0.38 0.25 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  billiard-marker
+ 0.00 0.00 0.00 0.00 0.00 0.50  whose
+ 0.00 0.00 0.00 0.21 0.00 0.23  skill
+ 0.00 0.00 0.00 0.00  was
+ 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  perhaps
+ 0.00 0.18 0.07 0.00 0.00  have
+ 0.11 0.10 0.09 0.11  won
+ 0.00 0.00 0.00 0.00 0.00  more
+ 0.00 0.00 0.00 0.00 0.00  than
+ 0.00 0.00 0.00 0.00  his
+ 0.00 0.00  a
+ 0.50 0.67 0.11 0.17 0.00 0.00 0.00  banker
+ 0.62 0.45 0.20 0.00 0.00 0.00 0.00 0.00  engaged
+ 0.00 0.00 0.00  at
+ 0.25 0.00 0.17 0.00 0.00 0.00 0.00 0.00 0.00  enormous
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00 0.00 0.00  whole
+ 0.00 0.00 0.00  of
+ 0.00 0.00 0.00 0.00 0.00 0.00  their
+ 0.00 0.00 0.00 0.00 0.00  cash
+ 0.00 0.00 0.00  in
+ 0.00 0.00 0.00 0.00  his
+ 0.00 0.00 0.00 0.00  was
+ 0.00 0.00 0.00 0.00 0.00  also
+ 0.00 0.00  a
+ 0.20 0.00 0.00 0.00 0.00 0.00 0.00  beaver
+ 0.13 0.00 0.00 0.00 0.00  that
+ 0.31 0.09 0.00 0.00 0.00 0.00  paced
+ 0.00 0.00 0.00  on
+ 0.00 0.00 0.00 0.00  the
+ 0.00 1.00 0.08 0.13 0.00 0.00  would
+ 0.10 0.00 0.00 0.00  sit
+ 0.33 0.31 0.33 0.00 0.00 0.00 0.00  making
+ 0.40 0.33 0.20 0.00 0.00  lace
+ 0.00 0.00 0.00  in
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00  had
+ 0.14 0.00 0.00 0.00 0.00 0.00  often
+ 0.00 0.00 0.00 0.00  the
+ 0.60 0.55 0.27 0.42 0.33 0.40 0.00 0.00  bellman
+ 0.00 0.00 0.17 0.00 0.00  said
+ 0.53 0.56 0.10 0.23 0.50 1.00  saved
+ 0.00 0.00 0.00 0.00 0.00  them
+ 0.00 0.00 0.00 0.00 0.00  from
+ 0.00 0.00 0.00 0.00 0.00  none
+ 0.00 0.00 0.00  of
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.17 0.00 0.00 0.00 0.00 0.00 0.00  sailors
+ 0.00 0.00 0.00 0.00 0.00  knew
+ 0.00 0.00 0.00 0.00  was
+ 0.00 0.00 0.00 0.00  one
+ 0.00 0.00 0.00 0.00  who
+ 0.00 0.00 0.00 0.00  was
+ 0.00 0.00 0.00 0.00 0.00 0.00  famed
+ 0.00 0.00 0.00 0.00  for
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00 0.00 0.00 0.00  number
+ 0.00 0.00 0.00  of
+ 0.60 0.13 0.17 0.22 1.00 0.00 0.00  forgot
+ 0.00 1.00 0.00 0.00 0.00  when
+ 0.00 0.00 0.00  he
+ 0.33 0.00 0.00 0.33 0.50 0.00 0.00 0.00  entered
+ 0.00 0.00 0.00 0.00  the
+ 0.25 0.14 0.06 0.03 0.07 0.00 0.00 0.00 0.00  umbrella
+ 0.00 0.00 0.00 0.00  his
+ 0.11 0.05 0.13 0.00 0.00 0.00  watch
+ 0.00 0.00 0.00 0.00  all
+ 0.07 0.00 0.00 0.00  his
+ 0.36 0.33 0.21 0.00 0.00 0.00 0.00  jewels
+ 0.25 0.00 0.00 0.00  and
+ 0.00 0.00 0.00 0.00  the
+ 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  clothes
+ 0.00 0.00 0.00  he
+ 0.00 0.00 0.00 0.00  had
+ 0.00 0.00 0.00 0.00 0.00 0.00 0.00  bought
+ 0.00 0.00 0.00 0.00  for
+ 0.00 0.00 0.00 0.00  the
+
+ IOVP distributions:
+    0    0    0    0  the
+    0    0    0    0  117  168  place
+  176  139    0  140  for
+  143  164  a
+  151  144  141  150  146  152  snark
+  149  154  157  150  the
+  171  156  157  151  156  150  134  146  bellman
+    0  147   86  he
+   98  173  182  186    0  159    0  landed
+  156   82   95  140  his
+  155  162  187  134    0  crew
+  168  133    0    0    0  with
+    0    0    0    0    0  each
+    0    0    0    0  man
+    0    0    0  on
+    0    0  171  119  the
+    0    0    0  113  top
+    0    0    0  of
+    0    0    0    0  the
+  145  211  a
+  154  160  140  147  134  149  145  finger
+    0 Infinity Infinity Infinity Infinity Infinity Infinity    0    0  entwined
+    0 Infinity Infinity  in
+ Infinity Infinity Infinity  149  his
+    0    0    0    0  the
+    0    0    0    0    0    0  place
+    0    0    0    0  for
+    0    0  a
+    0    0    0    0    0    0  snark
+    0    0  i
+    0    0    0    0    0  have
+    0    0    0    0    0  said
+    0    0    0  it
+  153  156  153  142  129  153  alone
+  161  158  167  313  163  176  165  should
+  158  152  202  199  182  345  268    0    0    0  encourage
+    0    0  186    0  the
+    0    0    0    0  the
+    0    0    0    0    0    0  place
+    0    0    0    0  for
+    0    0  a
+    0    0    0    0    0    0  snark
+    0    0  i
+    0    0    0    0    0  have
+    0    0    0    0    0  said
+    0    0    0  it
+    0    0  i
+  148  131    0    0    0  tell
+    0  130    0    0  you
+    0    0    0    0    0    0  three
+    0    0    0    0    0    0  times
+    0    0    0  is
+  126 -338  129  162  147  crew
+ -274  134  146 -7709  was
+  123  177  162  143  199  144  196    0  123  complete
+  134  144  142  it
+ -773 -1181  115    0    0    0    0    0    0  included
+    0    0  a
+   51  168  166  142  162    0  maker
+  148  151   83  of
+  238  179  152  230  206  278    0  145  bonnets
+  125  155  110  143  and
+    0  197  182  203  192  217  197  191    0  222  barrister
+  172  183  182  117  237  172  124  196  brought
+  172  157  128  to
+  218  153  182  189  171  217  161    0  arrange
+  126  164  167  154  162  162  their
+  168   52  a
+  130  101  178  146    0    0  123  broker
+  160  135    0  to
+  147  130  151  169  140  169  value
+  169  157  116  110  162  108  their
+    0    0    0    0    0 Infinity Infinity Infinity    0    0    0    0    0    0    0    0  billiard-marker
+    0    0    0 Infinity Infinity Infinity  whose
+  137  120  155  152  149  159  skill
+  148  157  153  153  was
+    0    0    0    0  165    0  157  144  perhaps
+  150  134  151  143   86  have
+  221  174  112  161  won
+  147  108  157    0    0  more
+  118  151  173  154  130  than
+    0  132    0    0  his
+  129  147  a
+  166  169  232  169  164  156  171  banker
+  219  235  242  282  200  192    0  263  engaged
+  140    0  136  at
+  147  134  149  137  165  139  146  169  146  enormous
+    0    0    0    0  the
+    0    0  137   90  151  111  whole
+    0  151  135  of
+    0    0    0    0  140    0  their
+    0    0    0    0    0  cash
+    0    0    0  in
+    0    0    0    0  his
+    0    0  142  159  was
+  149    0  161  145  156  also
+  146  163  a
+  143  150  158  156  151  164  135  beaver
+  150  158  152  142  134  that
+  190  140  209  180    0    0  paced
+    0    0  137  on
+    0    9    0    0  the
+    0    0  167  183  178  202  would
+  179  195  160  171  sit
+  142  125  141  124  138  162  179  making
+  195  258  184  200  181  lace
+    0  139  161  in
+    0  161  186  124  the
+  170    0  114  143  had
+  138  146  152  155  187  166  often
+  161  177  167  150  the
+  199  183  220  224  219  172  123    0  bellman
+  164  144  160  149   41  said
+  303  225  243  260  210    0  saved
+   19    0  132    0  139  them
+  149  158  137  146  139  from
+  130  127  109  105    0  none
+    0  222  164  of
+  160  145  150  162  the
+  176  145  216  145  152  150  201    0  sailors
+   98    0  148    0    0  knew
+  145  158  137  136  was
+  146  164   -6  158  one
+  120  145   92   94  who
+  130  127  116  142  was
+  146  143  124    0    0    0  famed
+    0    0    0    0  for
+    0    0    0    0  the
+    0    0    0    0    0    0    0  number
+    0    0    0  of
+  159  177  161 -116    0  201    0  forgot
+    0    0   79  154  155  when
+  -78   21  150  he
+  138   37    0  204  104    0    0    0  entered
+    0    0    0    0  the
+  173  168  168 -1698  -35  202  162    0    0  umbrella
+ -491  145  149  150  his
+  181  172  191  174  180  151  watch
+  180  139  122 -304  all
+  151  134  -14   71  his
+  188  184  179  182  186  196  137  jewels
+  135  150  133  137  and
+  169  123  139  163  the
+  136  170  125  170  143  144  129  140  clothes
+  162    0  145  he
+  135    0  165    0  had
+    0    0    0  116    0    0    0  bought
+    0    0    0    0  for
+    0    0    0    0  the

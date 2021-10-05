@@ -1,0 +1,7 @@
+1. Take corpus files from GazeBase and run it through EZReader Model (80% corpus)
+2. EZReader generates eye movement prediction (8 metrics)
+3. Use Naser's code to convert real eye movement from GazeBase into the same 8 metrics
+4. Compare model prediction to real eye movement data (for 1 person) based on frequency classes (5 classes)
+5. Calculate MSSE between prediction and real data
+6. Update EZReader model parameters to minimize MSSE
+7. When MSSE is at a minimum, we reach the smallest, record parameters
