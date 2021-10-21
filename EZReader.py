@@ -33,6 +33,11 @@ class EZReader:
 
     def set_params(self, **kwargs):
         """Set the parameters for the EZReader for twisting
+
+        Raises
+        ------
+        RuntimeError
+            when an input parameters is not valid
         """
 
         for parameter in kwargs:
@@ -125,8 +130,8 @@ class EZReader:
             return result.read()
 
 
-ezreader = EZReader()
-ezreader.set_params(a1=125, a2=20, psi=3)
-print(ezreader.get_params())
-ezreader.run()
-print(ezreader.fetch())
+# ezreader = EZReader()
+# ezreader.set_params(a1=125, a2=20, psi=3)
+# print(ezreader.get_params())
+# ezreader.run()
+# print(ezreader.fetch())
