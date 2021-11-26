@@ -1,4 +1,6 @@
-import subprocess
+import subprocess, math
+import numpy as np
+import time
 
 
 class EZReader:
@@ -13,7 +15,7 @@ class EZReader:
 
     SIMULATIONS = ['wordivs', 'modelstates', 'tracefile', 'worddvs', 'distributions']
 
-    def __init__(self, corpus="datasets/1_1_corpus.txt", target="datasets/1_1_target.txt", simulation="worddvs", num_subject=10):
+    def __init__(self, corpus="datasets/1_1_corpus.txt", target="datasets/1_1_target.txt", simulation="worddvs", num_subject=10, output="outputs/result.txt"):
         """Wrapper for EZReader in Python
 
         Parameters
@@ -29,7 +31,7 @@ class EZReader:
         self.num_subject = num_subject
 
         self.params = {}
-        self.output = "outputs/result.txt"
+        self.output = output
 
     def set_params(self, **kwargs):
         """Set the parameters for the EZReader for twisting
@@ -59,6 +61,12 @@ class EZReader:
                             for parameter, value in self.params.items()])
 
         return output
+
+    def clear_params(self):
+        """Clear all parameters in the EZReader
+        """
+
+        self.params = {}
 
     def set_simultion(self, simulation):
         """Set simulation type
@@ -115,8 +123,12 @@ class EZReader:
 
         process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
-        # for line in process.stdout.readlines():
-        #     print(line)
+        line = ''
+        while line != b'Done':
+            line = process.stdout.readlines()[0]
+
+        return
+
 
     def fetch(self):
         """Fetch the result file
@@ -129,9 +141,46 @@ class EZReader:
         with open("EZReader/" + self.output, "r") as result:
             return result.read()
 
+    def get_prediction(self, metric):
+
+        with open('EZReader/datasets/1_1_corpus.txt', 'r') as file:
+            freq_lookup = {row.strip().split()[-1] : int(row.strip().split()[0]) for row in file.readlines()}
+
+        self.run()
+
+        raw_prediction = self.fetch()
+        raw_prediction = raw_prediction.split('\n')
+        start = raw_prediction.index(' Word-based means:') + 1
+        end = raw_prediction.index(' First-fixation landing-site distributions:') - 1
+        raw_prediction = raw_prediction[start : end]
+
+        results = [[], [], [], [], []]
+
+        for line in raw_prediction:
+            row = line.split()
+            freq = freq_lookup[row[-1]]
+            freq_class = math.floor(math.log(freq, 10)) if freq != 0 else 0
+            print(row)
+            if metric == 'GD':
+                GD = row[5]
+                if GD != "Infinity":
+                    results[freq_class].append(int(GD))
+            elif metric == 'TT':
+                TT = row[7]
+                print(TT)
+                if TT != "Infinity":
+                    results[freq_class].append(int(TT))
+
+        predicted = []
+        for clss in results:
+            predicted.append(np.array(clss).mean())
+
+        return predicted
+
 
 # ezreader = EZReader()
 # ezreader.set_params(a1=125, a2=20, psi=3)
 # print(ezreader.get_params())
-# ezreader.run()
-# print(ezreader.fetch())
+# for _ in range(5):
+#     ezreader.run()
+#     print(ezreader.get_prediction())

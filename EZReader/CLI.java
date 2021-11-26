@@ -343,6 +343,7 @@ public class CLI {
             public void run() {
                 try {
                     Model.run();
+                    System.out.print("Done");
                 } catch (FileNotFoundException fileNotFound) {
                     System.out.println("Could not find the file: re-enter file name");
                 }
