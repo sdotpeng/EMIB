@@ -1,5 +1,6 @@
 import subprocess, math
 import numpy as np
+import pandas as pd
 import time
 
 
@@ -141,6 +142,39 @@ class EZReader:
         with open("EZReader/" + self.output, "r") as result:
             return result.read()
 
+    def generate_prediction(self, repetition=5):
+        data = []
+        for i in range(repetition):
+            self.run()
+
+            raw_prediction = self.fetch()
+            raw_prediction = raw_prediction.split('\n')
+            start = raw_prediction.index(' Word-based means:') + 1
+            end = raw_prediction.index(' First-fixation landing-site distributions:') - 1
+            raw_prediction = raw_prediction[start : end]
+
+            token = []
+            df = []
+            for line in raw_prediction:
+                row = line.split()
+                SFD = float(row[1])
+                FFD = float(row[3])
+                GD = float(row[5])
+                TT = float(row[7])
+                PrF = float(row[9])
+                Pr1 = float(row[11])
+                Pr2 = float(row[13])
+                PrS = float(row[15])
+                df.append([SFD, FFD, GD, TT, PrF, Pr1, Pr2, PrS])
+                token.append(row[16])
+
+            data.append(df)
+
+        data = np.mean(np.array(data), axis=0)
+        result = pd.DataFrame(data=data, columns=['SFD', 'FFD', 'GD', 'TT', 'PrF', 'Pr1', 'Pr2', 'PrS'])
+        result['token'] = token
+        return result
+
     def get_prediction(self, metric):
 
         with open('EZReader/datasets/1_1_corpus.txt', 'r') as file:
@@ -160,14 +194,12 @@ class EZReader:
             row = line.split()
             freq = freq_lookup[row[-1]]
             freq_class = math.floor(math.log(freq, 10)) if freq != 0 else 0
-            print(row)
             if metric == 'GD':
                 GD = row[5]
                 if GD != "Infinity":
                     results[freq_class].append(int(GD))
             elif metric == 'TT':
                 TT = row[7]
-                print(TT)
                 if TT != "Infinity":
                     results[freq_class].append(int(TT))
 
