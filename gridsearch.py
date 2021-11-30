@@ -37,4 +37,3 @@ for param in tqdm(params):
     index += 1
 
 results.to_csv('Result3.csv')
-
